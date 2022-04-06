@@ -1,0 +1,30 @@
+.navbar {
+    display: block;
+    background: rgb(75, 56, 56);
+    color: gold;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: green;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+li a :hover {
+    background-color: aquamarine;
+}
